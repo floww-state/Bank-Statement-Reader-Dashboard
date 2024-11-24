@@ -1,10 +1,16 @@
+# Changelog
+- [X] Upgraded code logic to make algorithm template-independent
+- [X] Transaction date identification criteria optimized to handle multiple date formats
+- [ ] Robust Power BI dashboard to track expences, patterns, and analyze spend behaviour
+
+
 # Install required packages
 ```bash
 pip install pdfplumber pandas
 ```
 
 # Execute algorithm
-1. Clone repository in local system
+1. Download repository in local system
 2. Run **bank_statement_reader.ipynb**
 3. Navigate to section named **Main - algorithm execution**
 4. Update/add regex to match dates in your PDF dates
@@ -19,12 +25,16 @@ folder_path = r'D:\work\code_and_stuff\git_repos\bank_statement_parser\Bank-Stat
 file_paths = [folder_path + '\\' + file for file in os.listdir(folder_path)]
 print(f'{len(file_paths)} found in folder `{folder_path.split('\\')[-1]}`')
 ```
-6. Pass bank name and output path
+7. Provide PDF password (if any), else pass None. 2nd argument of function "etl"
+```python
+dfs = [etl(file_path, None, possible_date_formats) for file_path in file_paths] # Executes all the required functions to get data from PDF to padnas DF
+```
+8. Pass bank name and output path
 ```python
 bank_name = 'ICICI' # Pass bank name
 output_path = r'D:\work\code_and_stuff\git_repos\bank_statement_parser\Bank-Statement-Reader-Dashboard\2_output'
 ```
-7. **That's all! Run Jupyter NB**
+9. **That's all! Run Jupyter NB**
 
 # Sample output
 | raw_data                                                                            | is_credit | date      | amount | comments                                                                            | bank  | source                                                                                                         |
