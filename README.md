@@ -27,8 +27,6 @@ output_path = r'D:\work\code_and_stuff\git_repos\bank_statement_parser\Bank-Stat
 7. **That's all! Run Jupyter NB**
 
 # Sample output
-| raw_data | is_credit | date | amount | comments | bank | source
-|----------|----------|----------|----------|----------|----------|
-| **Working as**                 | Data Analyst                                                                                                                                                                                                                      |
-|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **With an experience of**      | 3.5+ years  
+| asasdg  | sadh     | sadgasd | sadgsdg | sdh   |
+|---------|----------|---------|---------|-------|
+| sdhahgs | agsvdsad | sadha   | dbfbsd  | dfbds |
