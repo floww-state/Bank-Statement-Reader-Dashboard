@@ -27,6 +27,10 @@ output_path = r'D:\work\code_and_stuff\git_repos\bank_statement_parser\Bank-Stat
 7. **That's all! Run Jupyter NB**
 
 # Sample output
-| asasdg  | sadh     | sadgasd | sadgsdg | sdh   |
-|---------|----------|---------|---------|-------|
-| sdhahgs | agsvdsad | sadha   | dbfbsd  | dfbds |
+| raw_data                                                                            | is_credit | date      | amount | comments                                                                            | bank  | source                                                                                                         |
+|-------------------------------------------------------------------------------------|-----------|-----------|--------|-------------------------------------------------------------------------------------|-------|----------------------------------------------------------------------------------------------------------------|
+| 29-apr-23 74332743120311966715554 swiggy   bangalore in 0.00 409.00                 | 0         | 29-Apr-23 | 409    |    apr                            swiggy bangalore   in                             | ICICI | D:\work\code_and_stuff\git_repos\bank_statement_parser\Bank-Statement-Reader-Dashboard\1_data\icici_statements |
+| 29-apr-23 74766513119316728661926 amazon   http://www.am in 0.00 -799.00            | 0         | 29-Apr-23 | -799   |    apr                            amazon http   www am in                           | ICICI | D:\work\code_and_stuff\git_repos\bank_statement_parser\Bank-Statement-Reader-Dashboard\1_data\icici_statements |
+| 29-apr-23 74766513119316720254589 amazon   http://www.am in 0.00 -694.00            | 0         | 29-Apr-23 | -694   |    apr                            amazon http   www am in                           | ICICI | D:\work\code_and_stuff\git_repos\bank_statement_parser\Bank-Statement-Reader-Dashboard\1_data\icici_statements |
+| 29-apr-23 74056633120311949501615   paytm_innovativeretail bangalore in 0.00 239.26 | 0         | 29-Apr-23 | 239.26 |    apr                            paytm   innovativeretail bangalore in             | ICICI | D:\work\code_and_stuff\git_repos\bank_statement_parser\Bank-Statement-Reader-Dashboard\1_data\icici_statements |
+| 29-apr-23 74332743120311948750760 bisleri   international mumbai in 0.00 180.00     | 0         | 29-Apr-23 | 180    |    apr                            bisleri   international mumbai in                 | ICICI | D:\work\code_and_stuff\git_repos\bank_statement_parser\Bank-Statement-Reader-Dashboard\1_data\icici_statements |
