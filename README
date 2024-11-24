@@ -1,2 +1,4 @@
 Run this command to install required packages
-`pip install pdfplumber pandas`
+```
+pip install pdfplumber pandas
+```
