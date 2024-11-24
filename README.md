@@ -1,7 +1,7 @@
 # Changelog
-[X] Upgraded code logic to make algorithm template-independent
-[X] Transaction date identification criteria optimized to handle multiple date formats
-[ ] Robust Power BI dashboard to track expences, patterns, and analyze spend behaviour
+- [X] Upgraded code logic to make algorithm template-independent
+- [X] Transaction date identification criteria optimized to handle multiple date formats
+- [ ] Robust Power BI dashboard to track expences, patterns, and analyze spend behaviour
 
 
 # Install required packages
